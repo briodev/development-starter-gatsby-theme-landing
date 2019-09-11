@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "site",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "briodev-gatsby-theme-landing": "*",
+    "gatsby": "^2.15.14",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

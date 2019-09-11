@@ -1,0 +1,4 @@
+{
+    "private": true,
+    "workspaces": ["briodev-gatsby-theme-landing", "site"]
+}
