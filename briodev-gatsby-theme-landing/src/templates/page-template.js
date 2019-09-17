@@ -129,6 +129,6 @@ const Body = styled.article`
 const HeaderImage = styled.div`
   grid-column: 1 / 4;
   width: 100%;
-  max-width: 100vh;
+  max-width: 100vw;
   justify-self: center;
 `
