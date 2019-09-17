@@ -2,15 +2,17 @@ import React from "react"
 import { graphql } from "gatsby"
 import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer"
 import { MDXProvider } from "@mdx-js/react"
-import Box from '../components/shortcodes/ui-test'
-import Title from '../components/shortcodes/title'
 import styled from '@emotion/styled'
 import Img from 'gatsby-image'
 import Layout from '../layouts/default-page-layout'
 import PreviousNext from '../components/previousNext'
 import SEO from '../components/seo'
 
-const shortcodes = { Box, Title}
+import Box from '../components/shortcodes/ui-test'
+import Title from '../components/shortcodes/title'
+import ContactFull from '../components/shortcodes/contact-full'
+
+const shortcodes = { Box, Title, ContactFull}
 
 
 export default ({data}) => {
